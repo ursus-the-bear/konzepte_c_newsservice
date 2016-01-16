@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55D87B131BD76F5F009549CA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 55D87B121BD76F5F009549CA /* main.c */; };
+		55D87B1B1BD76F97009549CA /* newsService.c in Sources */ = {isa = PBXBuildFile; fileRef = 55D87B1A1BD76F97009549CA /* newsService.c */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55D87B0D1BD76F5F009549CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55D87B0F1BD76F5F009549CA /* newsService */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = newsService; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D87B121BD76F5F009549CA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		55D87B191BD76F73009549CA /* newsService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newsService.h; sourceTree = "<group>"; };
+		55D87B1A1BD76F97009549CA /* newsService.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = newsService.c; sourceTree = "<group>"; };
+		55D87B1C1BD77398009549CA /* myConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myConsts.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D87B0C1BD76F5F009549CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55D87B061BD76F5F009549CA = {
+			isa = PBXGroup;
+			children = (
+				55D87B191BD76F73009549CA /* newsService.h */,
+				55D87B1C1BD77398009549CA /* myConsts.h */,
+				55D87B1A1BD76F97009549CA /* newsService.c */,
+				55D87B111BD76F5F009549CA /* newsService */,
+				55D87B101BD76F5F009549CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55D87B101BD76F5F009549CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D87B0F1BD76F5F009549CA /* newsService */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D87B111BD76F5F009549CA /* newsService */ = {
+			isa = PBXGroup;
+			children = (
+				55D87B121BD76F5F009549CA /* main.c */,
+			);
+			path = newsService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D87B0E1BD76F5F009549CA /* newsService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D87B161BD76F5F009549CA /* Build configuration list for PBXNativeTarget "newsService" */;
+			buildPhases = (
+				55D87B0B1BD76F5F009549CA /* Sources */,
+				55D87B0C1BD76F5F009549CA /* Frameworks */,
+				55D87B0D1BD76F5F009549CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = newsService;
+			productName = newsService;
+			productReference = 55D87B0F1BD76F5F009549CA /* newsService */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D87B071BD76F5F009549CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ursus Schneider";
+				TargetAttributes = {
+					55D87B0E1BD76F5F009549CA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 55D87B0A1BD76F5F009549CA /* Build configuration list for PBXProject "newsService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55D87B061BD76F5F009549CA;
+			productRefGroup = 55D87B101BD76F5F009549CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D87B0E1BD76F5F009549CA /* newsService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D87B0B1BD76F5F009549CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D87B1B1BD76F97009549CA /* newsService.c in Sources */,
+				55D87B131BD76F5F009549CA /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55D87B141BD76F5F009549CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55D87B151BD76F5F009549CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55D87B171BD76F5F009549CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55D87B181BD76F5F009549CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D87B0A1BD76F5F009549CA /* Build configuration list for PBXProject "newsService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D87B141BD76F5F009549CA /* Debug */,
+				55D87B151BD76F5F009549CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D87B161BD76F5F009549CA /* Build configuration list for PBXNativeTarget "newsService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D87B171BD76F5F009549CA /* Debug */,
+				55D87B181BD76F5F009549CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55D87B071BD76F5F009549CA /* Project object */;
+}
