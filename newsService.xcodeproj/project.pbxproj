@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55D87B131BD76F5F009549CA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 55D87B121BD76F5F009549CA /* main.c */; };
-		55D87B1B1BD76F97009549CA /* newsService.c in Sources */ = {isa = PBXBuildFile; fileRef = 55D87B1A1BD76F97009549CA /* newsService.c */; settings = {ASSET_TAGS = (); }; };
+		55D87B1B1BD76F97009549CA /* newsService.c in Sources */ = {isa = PBXBuildFile; fileRef = 55D87B1A1BD76F97009549CA /* newsService.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		55D87B0F1BD76F5F009549CA /* newsService */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = newsService; sourceTree = BUILT_PRODUCTS_DIR; };
-		55D87B121BD76F5F009549CA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		55D87B0F1BD76F5F009549CA /* newsService */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = newsService; path = "/Users/ursus/Syncthing/MSc IT/Semester 1/1. Konzepte Höhere Programmiersprachen/C/News Service/konzepte_c_newsservice/build/Debug/newsService"; sourceTree = "<absolute>"; };
+		55D87B121BD76F5F009549CA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = newsService/main.c; sourceTree = "<group>"; };
 		55D87B191BD76F73009549CA /* newsService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newsService.h; sourceTree = "<group>"; };
 		55D87B1A1BD76F97009549CA /* newsService.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = newsService.c; sourceTree = "<group>"; };
 		55D87B1C1BD77398009549CA /* myConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myConsts.h; sourceTree = "<group>"; };
@@ -47,26 +47,9 @@
 			children = (
 				55D87B191BD76F73009549CA /* newsService.h */,
 				55D87B1C1BD77398009549CA /* myConsts.h */,
-				55D87B1A1BD76F97009549CA /* newsService.c */,
-				55D87B111BD76F5F009549CA /* newsService */,
-				55D87B101BD76F5F009549CA /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		55D87B101BD76F5F009549CA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				55D87B0F1BD76F5F009549CA /* newsService */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		55D87B111BD76F5F009549CA /* newsService */ = {
-			isa = PBXGroup;
-			children = (
 				55D87B121BD76F5F009549CA /* main.c */,
+				55D87B1A1BD76F97009549CA /* newsService.c */,
 			);
-			path = newsService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,7 +94,7 @@
 				en,
 			);
 			mainGroup = 55D87B061BD76F5F009549CA;
-			productRefGroup = 55D87B101BD76F5F009549CA /* Products */;
+			productRefGroup = 55D87B061BD76F5F009549CA;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -243,6 +226,7 @@
 				55D87B181BD76F5F009549CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
